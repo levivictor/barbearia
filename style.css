@@ -177,9 +177,10 @@ footer {
     }
 
   .imagem {
-    width: auto;
+    width: 480;
     height: auto;
   }
+
    h1 {
      text-align: center;
    } 
@@ -188,8 +189,11 @@ footer {
      position: static;
    }
 
+   nav a {
+        font-size: 16px;
+   }
    .lista1, .imagem2 {
      width: 100%;
    }
-  
+     
 }
