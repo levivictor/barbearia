@@ -51,6 +51,12 @@ nav a:hover {
 
 .imagem {
   width: 100%;
+  height: 800px;
+}
+
+.divisao1 {
+    padding: 3em 0;
+    background: #d3d3d3;
 }
 
 h2 {
@@ -58,6 +64,11 @@ h2 {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+}
+
+.conteudo-divisao1{
+  width: 940px;
+  margin: 0 auto;
 }
 
 .divisao1 p {
@@ -79,12 +90,9 @@ h2 {
   margin: 0 20px 20px 0;
 }
 
-.divisao2 {
-  padding: 3em 0;
-}
-
 .mapa {
   padding: 3em 0;
+  background: linear-gradient(#d3d3d3,#888888);
 }
 
 .mapa p {
@@ -92,6 +100,16 @@ h2 {
   text-align: center;
 }
 
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.divisao2 {
+  padding: 3em 0;
+  background: linear-gradient(#888888,#696969);
+  
+}
 .conteudo-beneficios {
   width: 640px;
   margin: 0 auto;
@@ -111,9 +129,19 @@ h2 {
    font-weight: bold;
 }
 
+.itens:before {
+  content: "★";
+}
+
 .imagem2 {
   width: 50%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px #000000;
+}
 
+.imagem2:hover {
+  opacity: 0.3;
 }
 
 footer {
@@ -134,9 +162,34 @@ footer {
   margin-top: 25px;
 }
 
-
-
 .video {
   width: 560px;
   margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa, .conteudo-divisao1, .mapa-conteudo, .conteudo-beneficios, .video {
+    width: auto;
+    }
+      
+    figcaption {
+      opacity: 0;
+    }
+
+  .imagem {
+    width: auto;
+    height: auto;
+  }
+   h1 {
+     text-align: center;
+   } 
+   
+   nav {
+     position: static;
+   }
+
+   .lista1, .imagem2 {
+     width: 100%;
+   }
+  
 }
