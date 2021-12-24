@@ -25,6 +25,15 @@ figcaption {
   font-size: 10px;
 }
 
+h1 {
+  padding-left: 100px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 40px;
+  color: #FFFFFF
+ 
+} 
+
 nav {
     position: absolute;
     top: 60px;
