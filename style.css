@@ -36,8 +36,8 @@ h1 {
 
 nav {
     position: absolute;
-    top: 60px;
-    right: 0;
+    top: 120px;
+    right: -10;
 }
 
 nav li {
