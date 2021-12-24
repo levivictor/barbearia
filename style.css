@@ -37,7 +37,7 @@ h1 {
 nav {
     position: absolute;
     top: 120px;
-    right: -10;
+    right: 0;
 }
 
 nav li {
